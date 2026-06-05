@@ -12,6 +12,7 @@ import { DEFAULT_POINTER_POSITION } from '../../utils/pointer-position'
 type PreviewRunningData = WorkflowRunningData & {
   resultTabActive?: boolean
   resultText?: string
+  resultTextSelectorKey?: string
   // human input form schema or data cached when node is in 'Paused' status
   extraContentAndFormData?: Record<string, unknown>
 }
